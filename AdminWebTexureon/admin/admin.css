@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Minecraftia&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Minecraftia', monospace;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.login-box {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid #2b2b2b;
+}
+
+.login-box h2 {
+  color: #4caf50;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  color: #b5b5b5;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group i {
+  margin-right: 6px;
+  color: #4caf50;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #101010;
+  color: #e0e0e0;
+  font-family: 'Minecraftia';
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #4caf50;
+}
+
+.btn-glow {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-glow:hover {
+  background-color: #45a049;
+}
+
+.thumbnail {
+  width: 160px;
+  height: 70px;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.dashboard-header {
+  background-color: #151515;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+  color: #4caf50;
+}
+
+.dashboard-header h1 {
+  font-size: 1.1rem;
+}
+
+.logout-btn {
+  background: none;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* ===== CONTENT ===== */
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.form-container,
+.output-box {
+  background-color: #1a1a1a;
+  border: 1px solid #2b2b2b;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 400px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn-outline {
+  border: 1px solid #4caf50;
+  background: none;
+  color: #4caf50;
+  border-radius: 6px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.output-box h3 {
+  color: #4caf50;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.output-box pre {
+  background: #111;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  color: #81c784;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+/* ===== IMAGE PREVIEW ===== */
+.image-preview {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.image-preview img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  display: none;
+}
+
+.image-preview img.show {
+  display: block;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 700px) {
+  .dashboard-content {
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .dashboard-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

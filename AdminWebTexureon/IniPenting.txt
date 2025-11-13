@@ -1,0 +1,5 @@
+data-home.json (Data postingan untuk Addons/Mod Di Halaman Utama Web)
+
+data-shader.json (Data postingan untuk page Halaman shader, cara posting nya sama seperti di data-home.json, cara nambah data nya bisa di Admin Dashboard!)
+
+data-blogs.json (Data untuk postingan blogs kabar terbaru dll, jadi bebas, cara kerjanya sama seperti dashboard admin tetapi ada tambahan untuk waktu tgl,bulan, dan tahun setiap membuat blogs baru akan otomatis mengisikan Date terkini!)

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Texureon</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <!-- Login Page -->
+  <div class="login-container">
+    <div class="login-box">
+      <h2><i class="fas fa-user-shield"></i> Admin Login</h2>
+      <div class="form-group">
+        <label for="username"><i class="fas fa-user"></i> Username</label>
+        <input type="text" id="username" placeholder="Masukkan username">
+      </div>
+      <div class="form-group">
+        <label for="password"><i class="fas fa-lock"></i> Password</label>
+        <input type="password" id="password" placeholder="Masukkan password">
+      </div>
+      <button id="loginBtn" class="btn-glow"><i class="fas fa-sign-in-alt"></i> Login</button>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="dashboard" style="display: none;">
+    <header class="dashboard-header">
+      <h1><i class="fas fa-cogs"></i> Texureon Admin Dashboard</h1>
+      <button id="logoutBtn" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+    </header>
+
+    <section class="dashboard-content">
+      <div class="form-container">
+        <div class="form-group">
+          <label for="image"><i class="fas fa-image"></i> Image URL</label>
+          <input type="text" id="image" placeholder="Masukkan URL gambar">
+          <img id="imagePreview" alt="Preview Gambar" class="thumbnail">
+        </div>
+        <div class="form-group">
+          <label for="judul"><i class="fas fa-heading"></i> Judul</label>
+          <input type="text" id="judul" placeholder="Masukkan judul">
+        </div>
+        <div class="form-group">
+          <label for="deskripsi"><i class="fas fa-align-left"></i> Deskripsi</label>
+          <textarea id="deskripsi" placeholder="Masukkan deskripsi"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="urlDownload"><i class="fas fa-download"></i> URL Download</label>
+          <input type="text" id="urlDownload" placeholder="Masukkan URL download">
+        </div>
+        <div class="buttons">
+          <button id="process" class="btn-glow"><i class="fas fa-code"></i> Process Parsing</button>
+          <button id="copy" class="btn-outline"><i class="fas fa-copy"></i> Copy JSON</button>
+        </div>
+      </div>
+
+      <div class="output-box">
+        <h3><i class="fas fa-database"></i> Hasil JSON</h3>
+        <pre id="result">{}</pre>
+      </div>
+    </section>
+  </div>
+
+  <!-- JS -->
+  <script src="sc.js"></script>
+</body>
+</html>

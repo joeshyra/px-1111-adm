@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogs Editor V1</title>
+
+  <!-- Google Fonts Minecraft -->
+  <link href="https://fonts.googleapis.com/css2?family=Minecraftia&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="blogs.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div class="splash-screen">
+    <h1><i class="fas fa-pen-nib"></i> Blogs Editor V1</h1>
+    <div class="loading-bar"><div class="progress"></div></div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="dashboard" style="display: none;">
+    <header class="dashboard-header">
+      <h1><i class="fas fa-book"></i> Blogs Dashboard</h1>
+      <span class="greeting">Hello Josep</span>
+    </header>
+
+    <section class="dashboard-content">
+      <div class="form-container">
+        <div class="form-group">
+          <label for="image"><i class="fas fa-image"></i> Image URL</label>
+          <input type="text" id="image" placeholder="Masukkan URL gambar thumbnail">
+          <img id="imagePreview" alt="Preview Gambar">
+        </div>
+
+        <div class="form-group">
+          <label for="judul"><i class="fas fa-heading"></i> Judul</label>
+          <input type="text" id="judul" placeholder="Masukkan judul blog">
+        </div>
+
+        <div class="form-group">
+          <label for="deskripsi"><i class="fas fa-align-left"></i> Deskripsi</label>
+          <textarea id="deskripsi" placeholder="Masukkan deskripsi blog"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="urlBlog"><i class="fas fa-link"></i> URL Blog</label>
+          <input type="text" id="urlBlog" placeholder="Masukkan URL blog">
+        </div>
+
+        <div class="buttons">
+          <button id="process" class="btn-glow"><i class="fas fa-code"></i> Generate JSON</button>
+          <button id="copy" class="btn-outline"><i class="fas fa-copy"></i> Copy JSON</button>
+        </div>
+      </div>
+
+      <div class="output-box">
+        <h3><i class="fas fa-database"></i> Hasil JSON</h3>
+        <pre id="result">{}</pre>
+      </div>
+    </section>
+  </div>
+
+  <!-- Script -->
+  <script src="blogs.js"></script>
+</body>
+</html>
