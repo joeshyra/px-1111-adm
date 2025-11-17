@@ -1,0 +1,35 @@
+[
+  {
+    "nama": "DONUT SMP",
+    "ip": "play.kampungeles.id",
+    "port": "STANDAR",
+    "versi": "1.21.10",
+    "online": 54,
+    "max": 2025,
+    "deskripsi": "ᴋᴀᴍᴘᴜɴɢ ᴇʟᴇꜱ | 1.16.5 - 1.21.8 ᴅᴏɴᴜᴛ ꜱᴍᴘ | ꜱᴜʀᴠɪᴠᴀʟ ʀᴘɢ | ᴘʀᴀᴄᴛɪᴄᴇ ᴘᴠᴘ",
+    "url": "play.kampungeles.id",
+    "video": "https://minecraft-mp.com/server-s348953/banner-348953-1762155466.mp4"
+  },
+  {
+    "nama": "KALWI",
+    "ip": "kalwi.id",
+    "port": "STANDAR",
+    "versi": "1.21.7",
+    "online": 112,
+    "max": 2025,
+    "deskripsi": "Kandang Alwi Survival - Vanilla - AcidIsland - SurvivalRPG.",
+    "url": "https://store.kalwi.net/",
+    "image": "https://cdn.pixabay.com/photo/2017/06/20/19/22/minecraft-2421441_960_720.jpg"
+  },
+  {
+    "nama": "ALWI",
+    "ip": "alwination.id",
+    "port": "STANDAR",
+    "versi": "1.21.10",
+    "online": 112,
+    "max": 1888,
+    "deskripsi": "AlwiNation | Server Resmi Earth SMP - Vanilla - Etc!  | Alwisusilo",
+    "url": "http://store.alwination.id/",
+    "image": "https://cdn.pixabay.com/photo/2017/06/20/19/22/minecraft-2421441_960_720.jpg"
+  }
+]

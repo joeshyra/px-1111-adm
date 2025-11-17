@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Minecraft Bedrock Edition",
+    "description": "Versi non resmi untuk perangkat mobile dan Windows 10.",
+    "image": "https://blog.unipin.com/wp-content/uploads/2025/05/Cara-Download-Minecraft-Bedrock-Terbaru-dengan-Mudah-dan-Cepat-2025-Wallpaper.jpg",
+    "versions": [
+      { "name": "Bedrock Launcher Windows", "url": "https://download3.cdn9mc.com/index.php?act=download&id=1741751347&hash=691363022960d" },
+      { "name": "Android MCPE 1.21.121", "url": "https://mcpedl.org/uploads_files/05-11-2025/minecraft-1-21-121.apk" },
+      { "name": "Android MCPE 1.21.130.26", "url": "https://mcpedl.org/uploads_files/04-11-2025/minecraft-1-21-130-26.apk" },
+      { "name": "Android MCPE 1.21.130.24", "url": "https://mcpedl.org/uploads_files/29-10-2025/minecraft-1-21-130-24.apk" }
+    ]
+  },
+  {
+    "title": "Minecraft Java Edition",
+    "description": "Versi klasik untuk PC, dengan dukungan mod dan server.",
+    "image": "https://cdn2.steamgriddb.com/thumb/6db2fc0f9848c8830f2c5ad73e78ea75.jpg",
+    "versions": [
+      { "name": "Windows v1.21.10", "url": "https://tlauncher.org/installer" },
+      { "name": "Linux&MacOS v1.21.10", "url": "https://tlauncher.org/jar" }
+    ]
+  },
+  {
+    "title": "Minecraft Java Edition",
+    "description": "Versi modern untuk Mobile, dengan dukungan mod dan server, Dan memberikan kemudahan untuk merasakan Minecraft Java Edition.",
+    "image": "https://cdn2.steamgriddb.com/thumb/6db2fc0f9848c8830f2c5ad73e78ea75.jpg",
+    "versions": [
+      { "name": "ZalithLauncher", "url": "https://github.com/ZalithLauncher/ZalithLauncher/releases/download/141000/ZalithLauncher-1.4.1.0.apk" },
+      { "name": "ZalithLauncher2", "url": "https://github.com/ZalithLauncher/ZalithLauncher2/releases/download/2.0.0_beta-20251109a/ZalithLauncher-2.0.0_beta-20251109a.apk" },
+       { "name": "PojavLauncher", "url": "https://github.com/PojavLauncherTeam/PojavLauncher/releases/download/gladiolus/PojavLauncher.apk" },
+       { "name": "MojoLauncher", "url": "https://play.google.com/store/apps/details?id=git.artdeell.mojo&hl=en" }
+    ]
+  }
+]
